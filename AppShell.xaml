@@ -26,6 +26,24 @@
         ContentTemplate="{DataTemplate pages:ManageMetaPage}"
         Route="manage" />
 
+    <ShellContent
+        Title="Another page"
+        Icon="{StaticResource IconMeta}"
+        ContentTemplate="{DataTemplate pages:ManageMetaPage}"
+        Route="manage1" />
+
+    <ShellContent
+        Title="Another page 2"
+        Icon="{StaticResource IconMeta}"
+        ContentTemplate="{DataTemplate pages:ManageMetaPage}"
+        Route="manage2" />
+
+    <ShellContent
+        Title="Another page 3"
+        Icon="{StaticResource IconMeta}"
+        ContentTemplate="{DataTemplate pages:ManageMetaPage}"
+        Route="manage3" />
+
     <Shell.FlyoutFooter>
         <Grid Padding="15">
             <sf:SfSegmentedControl x:Name="ThemeSegmentedControl" 
