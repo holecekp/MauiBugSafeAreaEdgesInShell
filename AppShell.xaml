@@ -14,6 +14,21 @@
         ContentTemplate="{DataTemplate pages:MainPage}"
         Route="main" />
 
+    <FlyoutItem Title="Shell Tabs" Icon="{StaticResource IconDashboard}">
+        <Tab>
+            <ShellContent
+                Title="First tab"
+                Icon="{StaticResource IconProjects}"
+                ContentTemplate="{DataTemplate pages:ProjectListPage}"
+                Route="tab1" />
+            <ShellContent
+                Title="Second Tab"
+                Icon="{StaticResource IconProjects}"
+                ContentTemplate="{DataTemplate pages:ProjectListPage}"
+                Route="tab2" />
+        </Tab>
+    </FlyoutItem>
+    
     <ShellContent
         Title="Projects"
         Icon="{StaticResource IconProjects}"
